@@ -41,7 +41,9 @@ Each project below opens with its **Context** — the problem it exists to solve
 
 ### Context
 
-A discretionary trader running many small perpetual-futures orders needs three things that a manual workflow cannot reliably give: consistent position management, risk state that survives a restart, and a record that can be inspected after the fact. The hard part is not opening an order. It is keeping the lifecycle coherent when the process dies, the API returns a partial fill, or a trailing stop has to be reconstructed from disk.
+A discretionary trader running many small perpetual-futures orders needs four things that a manual workflow cannot reliably give: consistent position management, risk state that survives a restart, a record that can be inspected after the fact, and enough structure in that record to test the trader's own assumptions. The bot was built to log every trade — pair, side, session, timing, leverage, size, stops, result, note, chart, and a structured post-trade analysis — so recurring objective errors, timing and asset/session effects, the meaning of stated confidence, and the role of crowding can be measured rather than recalled.
+
+The hard part is not opening an order. It is keeping the lifecycle coherent when the process dies, the API returns a partial fill, or a trailing stop has to be reconstructed from disk.
 
 ### Solution
 
@@ -53,6 +55,7 @@ The private source covers the API client, WebSocket feed, transaction manager, p
 - **Crash recovery.** Open positions and trailing-stop state must survive a restart, or the bot silently loses its risk configuration.
 - **Reconciliation.** Local journal fields are not an exchange statement. Fees, funding, borrowing, and position-size conventions have to be decoded before any P&L number is meaningful.
 - **Failure handling.** API errors, partial fills, and WebSocket gaps have to fail closed rather than leave an unmanaged position.
+- **Instrumented journal.** Every order is logged with pair, side, session, day, timestamps, holding time, leverage, size, stop and target, realised result, the free-text note, and the chart. A structured analysis form adds confidence, timeframe, market context — liquidation levels, top-trader positioning, institutional vs retail — confluences, mistakes, and close analysis.
 
 ### Discord surface
 
@@ -151,6 +154,8 @@ An execution bot produces far more order events than completed trades. Without a
 ### Solution
 
 The export is a single JSON file of 1,059 rows across 98 trade IDs, and most of those rows repeat the same trade. Only 49 trade IDs carry a non-zero `profit`; `pnl` is zero everywhere and is not used. The analysis script reads the export directly, computes win rate, profit factor, holding time, and breakdowns by day and pair, and writes `results/metrics.json`.
+
+The review is built around four questions: where the recurring objective errors are, whether timing or session explains the result, whether stated confidence is calibrated, and whether crowding at entry adds information. The committed aggregate covers timing, day, pair, and outcome; confidence and crowding live in the structured analysis form and are the next layer of the review.
 
 <img src="assets/screenshots/journal-terminal.png" alt="Journal analysis output" width="900">
 
