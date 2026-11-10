@@ -1,0 +1,57 @@
+[
+  {
+    "symbol": "ACME",
+    "symbolName": "Acme Robotics Inc.",
+    "fullName": "Dana Whitfield",
+    "shortJobTitle": "Chief Financial Officer",
+    "transactionType": "Buy",
+    "amount": "25000",
+    "reportedPrice": "42.15",
+    "usdValue": "1,053,750.00",
+    "transactionDate": "11/06/26"
+  },
+  {
+    "symbol": "ACME",
+    "symbolName": "Acme Robotics Inc.",
+    "fullName": "Priya Nandakumar",
+    "shortJobTitle": "Director",
+    "transactionType": "Sell",
+    "amount": "8000",
+    "reportedPrice": "41.90",
+    "usdValue": "335,200.00",
+    "transactionDate": "11/06/26"
+  },
+  {
+    "symbol": "NORTH",
+    "symbolName": "Northline Energy Corp.",
+    "fullName": "Marcus Feld",
+    "shortJobTitle": "N/A",
+    "transactionType": "Buy",
+    "amount": "12000",
+    "reportedPrice": "18.40",
+    "usdValue": "220,800.00",
+    "transactionDate": "11/06/26"
+  },
+  {
+    "symbol": "HARBOR",
+    "symbolName": "Harbor Logistics Ltd.",
+    "fullName": "Elena Vasquez",
+    "shortJobTitle": "Chief Executive Officer",
+    "transactionType": "Sell",
+    "amount": "50000",
+    "reportedPrice": "9.75",
+    "usdValue": "487,500.00",
+    "transactionDate": "11/06/26"
+  },
+  {
+    "symbol": "ACME",
+    "symbolName": "Acme Robotics Inc.",
+    "fullName": "Dana Whitfield",
+    "shortJobTitle": "Chief Financial Officer",
+    "transactionType": "Buy",
+    "amount": "1000",
+    "reportedPrice": "40.10",
+    "usdValue": "40,100.00",
+    "transactionDate": "11/05/26"
+  }
+]

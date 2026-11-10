@@ -1,0 +1,12 @@
+{
+  "name": "week-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Weekly macro calendar: fetch, normalise to UTC, and export JSON, CSV, text, or ICS.",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node src/index.js --sample",
+    "test": "node test/run.js"
+  }
+}

@@ -1,0 +1,45 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies / build
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+.next/
+target/
+
+# Private live execution source
+private-src/
+
+# Uncurated journal screenshots and raw evidence
+journal/evidence/raw/
+
+# Raw journal export and the review working files derived from it
+journal/data/trade_journal.json
+journal/review/
+
+# Unreviewed real captures
+assets/screenshots/incoming/
+
+# Generated tool output
+week-calendar/week-calendar.json
+week-calendar/week-calendar.csv
+week-calendar/week-calendar.ics
+disclosure-flow/results/*.json
+!disclosure-flow/results/.gitkeep
+
+# Large archives
+*.zip
+*.tar.gz
+*.log
+
+# OS
+.DS_Store

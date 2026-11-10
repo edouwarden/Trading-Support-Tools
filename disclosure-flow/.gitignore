@@ -1,0 +1,12 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated reports
+results/*.json
+!results/.gitkeep
+
+# Node / OS
+node_modules/
+.DS_Store

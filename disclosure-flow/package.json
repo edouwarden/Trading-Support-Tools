@@ -1,0 +1,12 @@
+{
+  "name": "disclosure-flow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Insider and politician disclosure trackers built on RapidAPI feeds.",
+  "scripts": {
+    "demo": "node src/index.js --demo",
+    "insider": "node src/index.js --insider",
+    "politician": "node src/index.js --politician"
+  }
+}

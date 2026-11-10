@@ -1,0 +1,456 @@
+{
+  "note": "Reviewed subset. Notes are edited English. No prices, size, leverage, P&L, or bot IDs.",
+  "trades": [
+    {
+      "ref": "trade-01",
+      "pair": "XPL/USD",
+      "side": "long",
+      "date": "2025-10-29",
+      "notes": [
+        {
+          "date": "2025-10-10",
+          "text": "Flash crash; expecting a revisit of the order block.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-02",
+      "pair": "AAVE/USD",
+      "side": "short",
+      "date": "2025-10-11",
+      "notes": [
+        {
+          "date": "2025-10-11",
+          "text": "Missed the entry twice by a few pips; no longer interested.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-03",
+      "pair": "PENDLE/USD",
+      "side": "long",
+      "date": "2025-11-12",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-10-11",
+          "text": "Looking to enter on the second leg of the crash."
+        }
+      ]
+    },
+    {
+      "ref": "trade-04",
+      "pair": "AI16Z/USD",
+      "side": "short",
+      "date": "2025-10-12",
+      "notes": [
+        {
+          "date": "2025-10-11",
+          "text": "AI memecoin; short into the flash crash.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-05",
+      "pair": "AI16Z/USD",
+      "side": "short",
+      "date": "2025-10-13",
+      "notes": [
+        {
+          "date": "2025-10-11",
+          "text": "AI memecoin; short into the flash crash.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-06",
+      "pair": "XPL/USD",
+      "side": "long",
+      "date": "2025-10-30",
+      "notes": [
+        {
+          "date": "2025-10-10",
+          "text": "Flash crash; expecting a revisit of the order block.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-07",
+      "pair": "SPY/USD",
+      "side": "long",
+      "date": "2025-11-06",
+      "notes": [
+        {
+          "date": "2025-11-06",
+          "text": "Clean FVG and order block; small test position.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-08",
+      "pair": "WTI/USD",
+      "side": "short",
+      "date": "2025-11-06",
+      "notes": [
+        {
+          "date": "2025-11-06",
+          "text": "Clean retest of the order block; small test position on WTI.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-09",
+      "pair": "SPY/USD",
+      "side": "long",
+      "date": "2025-11-06",
+      "notes": [
+        {
+          "date": "2025-11-06",
+          "text": "Clean FVG and order block; small test position.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-10",
+      "pair": "WTI/USD",
+      "side": "short",
+      "date": "2025-11-07",
+      "notes": [
+        {
+          "date": "2025-11-06",
+          "text": "Clean retest of the order block; small test position on WTI.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-11",
+      "pair": "BTC/USD",
+      "side": "long",
+      "date": "2025-11-08",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-07",
+          "text": "ETH/BTC arbitrage."
+        }
+      ]
+    },
+    {
+      "ref": "trade-12",
+      "pair": "BTC/USD",
+      "side": "short",
+      "date": "2025-11-12",
+      "notes": [
+        {
+          "date": "2025-11-12",
+          "text": "Maintaining the long-term short bias; entering on an order block.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-13",
+      "pair": "LINK/USD",
+      "side": "short",
+      "date": "2025-11-12",
+      "notes": [
+        {
+          "date": "2025-11-12",
+          "text": "Short bias on BTC; LINK offers better liquidity for the short.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-14",
+      "pair": "BTC/USD",
+      "side": "short",
+      "date": "2025-11-12",
+      "notes": [
+        {
+          "date": "2025-11-12",
+          "text": "Same setup with a different order block; position size may have been too aggressive.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-15",
+      "pair": "XAG/USD",
+      "side": "long",
+      "date": "2025-11-13",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-13",
+          "text": "First silver trade; small size, clean liquidity grab into a small order block."
+        }
+      ]
+    },
+    {
+      "ref": "trade-16",
+      "pair": "XAU/USD",
+      "side": "short",
+      "date": "2025-11-13",
+      "notes": [
+        {
+          "date": "2025-11-13",
+          "text": "Small short on the 5-minute open retest.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-17",
+      "pair": "BTC/USD",
+      "side": "short",
+      "date": "2025-11-13",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-13",
+          "text": "Small-size arbitrage."
+        }
+      ]
+    },
+    {
+      "ref": "trade-18",
+      "pair": "ETH/USD",
+      "side": "long",
+      "date": "2025-11-13",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-13",
+          "text": "Small-size arbitrage."
+        }
+      ]
+    },
+    {
+      "ref": "trade-19",
+      "pair": "DYDX/USD",
+      "side": "long",
+      "date": "2025-11-14",
+      "notes": [
+        {
+          "date": "2025-11-13",
+          "text": "dYdX governance approved using 75% of protocol revenue to buy back DYDX on the open market, effective immediately.",
+          "author": "trader"
+        },
+        {
+          "date": "2025-11-13",
+          "text": "DYDX was already deeply oversold; the buyback and the broader BTC selloff set up a corrective bounce.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-20",
+      "pair": "LINK/USD",
+      "side": "short",
+      "date": "2025-11-14",
+      "notes": [
+        {
+          "date": "2025-11-13",
+          "text": "Hedged the DYDX long with a LINK short; LINK still had liquidation levels below.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-21",
+      "pair": "SOL/USD",
+      "side": "long",
+      "date": "2025-11-13",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-13",
+          "text": "Large amount of liquidity still to be reclaimed."
+        }
+      ]
+    },
+    {
+      "ref": "trade-22",
+      "pair": "SOL/USD",
+      "side": "long",
+      "date": "2025-11-14",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-13",
+          "text": "Large amount of liquidity still to be reclaimed."
+        }
+      ]
+    },
+    {
+      "ref": "trade-23",
+      "pair": "SOL/USD",
+      "side": "long",
+      "date": "2025-11-14",
+      "notes": [
+        {
+          "date": "2025-11-14",
+          "text": "Re-entered the same position with a better entry; upside and liquidity still supportive.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-24",
+      "pair": "SOL/USD",
+      "side": "long",
+      "date": "2025-11-14",
+      "notes": [
+        {
+          "date": "2025-11-14",
+          "text": "Re-entered the same position with a better entry; upside and liquidity still supportive.",
+          "author": "trader"
+        }
+      ],
+      "captions": []
+    },
+    {
+      "ref": "trade-25",
+      "pair": "XPL/USD",
+      "side": "long",
+      "date": "2025-11-14",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-14",
+          "text": "XPL had sold off hard with BTC; entering with a tight stop at the US open."
+        }
+      ]
+    },
+    {
+      "ref": "trade-26",
+      "pair": "XPL/USD",
+      "side": "long",
+      "date": "2025-11-14",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-14",
+          "text": "XPL had sold off hard with BTC; entering with a tight stop at the US open."
+        }
+      ]
+    },
+    {
+      "ref": "trade-27",
+      "pair": "BTC/USD",
+      "side": "short",
+      "date": "2025-11-18",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-18",
+          "text": "Price returning to the last order block before the drop."
+        }
+      ]
+    },
+    {
+      "ref": "trade-28",
+      "pair": "BTC/USD",
+      "side": "short",
+      "date": "2025-11-18",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-18",
+          "text": "Price returning to the last order block before the drop."
+        }
+      ]
+    },
+    {
+      "ref": "trade-29",
+      "pair": "ENA/USD",
+      "side": "short",
+      "date": "2025-11-18",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-18",
+          "text": "Hedged the long with correlated high-beta coins around an order block."
+        }
+      ]
+    },
+    {
+      "ref": "trade-30",
+      "pair": "ETH/USD",
+      "side": "long",
+      "date": "2025-12-01",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-23",
+          "text": "Should have anticipated the rejection at resistance; waiting for the new order block."
+        }
+      ]
+    },
+    {
+      "ref": "trade-31",
+      "pair": "BNB/USD",
+      "side": "short",
+      "date": "2025-11-26",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-26",
+          "text": "Overextended; short into the order block."
+        }
+      ]
+    },
+    {
+      "ref": "trade-32",
+      "pair": "BNB/USD",
+      "side": "short",
+      "date": "2025-11-26",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-26",
+          "text": "Overextended; short into the order block."
+        }
+      ]
+    },
+    {
+      "ref": "trade-33",
+      "pair": "ETH/USD",
+      "side": "long",
+      "date": "2025-12-01",
+      "notes": [],
+      "captions": [
+        {
+          "date": "2025-11-23",
+          "text": "Should have anticipated the rejection at resistance; waiting for the new order block."
+        }
+      ]
+    }
+  ]
+}

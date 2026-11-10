@@ -1,0 +1,10 @@
+{
+  "name": "bettergtrade-journal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Analysis tooling for the betterGTrade live execution journal.",
+  "scripts": {
+    "analyze": "node scripts/analyze.js"
+  }
+}

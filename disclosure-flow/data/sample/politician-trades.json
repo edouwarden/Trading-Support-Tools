@@ -1,0 +1,90 @@
+[
+  {
+    "ticker": "ACME",
+    "company": "Acme Robotics Inc.",
+    "trade_type": "buy",
+    "trade_amount": "15K-50K",
+    "name": "Jordan Ellis",
+    "party": "Democrat",
+    "chamber": "House",
+    "state_name": "Oregon",
+    "trade_date": "2026-11-02"
+  },
+  {
+    "ticker": "ACME",
+    "company": "Acme Robotics Inc.",
+    "trade_type": "buy",
+    "trade_amount": "1K-5K",
+    "name": "Ruth Callahan",
+    "party": "Republican",
+    "chamber": "Senate",
+    "state_name": "Ohio",
+    "trade_date": "2026-11-03"
+  },
+  {
+    "ticker": "NORTH",
+    "company": "Northline Energy Corp.",
+    "trade_type": "sell",
+    "trade_amount": "50K-100K",
+    "name": "Ruth Callahan",
+    "party": "Republican",
+    "chamber": "Senate",
+    "state_name": "Ohio",
+    "trade_date": "2026-11-03"
+  },
+  {
+    "ticker": "NORTH",
+    "company": "Northline Energy Corp.",
+    "trade_type": "sell",
+    "trade_amount": "15K-50K",
+    "name": "Amir Haddad",
+    "party": "Democrat",
+    "chamber": "House",
+    "state_name": "Michigan",
+    "trade_date": "2026-11-04"
+  },
+  {
+    "ticker": "HARBOR",
+    "company": "Harbor Logistics Ltd.",
+    "trade_type": "buy",
+    "trade_amount": "1K-5K",
+    "name": "Amir Haddad",
+    "party": "Democrat",
+    "chamber": "House",
+    "state_name": "Michigan",
+    "trade_date": "2026-11-04"
+  },
+  {
+    "ticker": "HARBOR",
+    "company": "Harbor Logistics Ltd.",
+    "trade_type": "buy",
+    "trade_amount": "100K-250K",
+    "name": "Tess Okafor",
+    "party": "Republican",
+    "chamber": "House",
+    "state_name": "Texas",
+    "trade_date": "2026-11-05"
+  },
+  {
+    "ticker": "VECTOR",
+    "company": "Vector Payments Inc.",
+    "trade_type": "sell",
+    "trade_amount": "15K-50K",
+    "name": "Jordan Ellis",
+    "party": "Democrat",
+    "chamber": "House",
+    "state_name": "Oregon",
+    "trade_date": "2026-11-05"
+  },
+  {
+    "ticker": "VECTOR",
+    "company": "Vector Payments Inc.",
+    "trade_type": "buy",
+    "trade_amount": "1K-5K",
+    "name": "Tess Okafor",
+    "party": "Republican",
+    "chamber": "House",
+    "state_name": "Texas",
+    "trade_date": "2026-11-06"
+  }
+]

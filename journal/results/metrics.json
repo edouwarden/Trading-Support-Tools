@@ -1,0 +1,263 @@
+{
+  "generatedAt": "2026-11-10T18:10:12.277Z",
+  "source": "data/trade_journal.json",
+  "period": {
+    "from": "2025-10-07",
+    "to": "2026-02-05"
+  },
+  "counts": {
+    "entries": 1059,
+    "tradeIds": 98,
+    "closed": 731,
+    "realised": 49,
+    "wins": 15,
+    "losses": 34,
+    "notes": 87,
+    "imageReferences": 44
+  },
+  "profit": {
+    "currency": "USD (journal field, unreconciled)",
+    "net": 1437.21,
+    "grossProfit": 3142.34,
+    "grossLoss": -1705.12,
+    "averageWin": 209.49,
+    "averageLoss": -50.15,
+    "best": 1979.34,
+    "worst": -109.75,
+    "winRate": 30.61,
+    "profitFactor": 1.84
+  },
+  "holding": {
+    "medianMinutes": 39.7,
+    "minMinutes": 0,
+    "maxMinutes": 4335.6
+  },
+  "byDayOfWeek": [
+    {
+      "name": "Thursday",
+      "count": 13,
+      "wins": 5,
+      "losses": 8,
+      "winRate": 38.46,
+      "profit": -341.69
+    },
+    {
+      "name": "Friday",
+      "count": 12,
+      "wins": 2,
+      "losses": 10,
+      "winRate": 16.67,
+      "profit": -630.85
+    },
+    {
+      "name": "Wednesday",
+      "count": 11,
+      "wins": 3,
+      "losses": 8,
+      "winRate": 27.27,
+      "profit": 446.28
+    },
+    {
+      "name": "Tuesday",
+      "count": 8,
+      "wins": 4,
+      "losses": 4,
+      "winRate": 50,
+      "profit": 1929.14
+    },
+    {
+      "name": "Monday",
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0,
+      "profit": -83.4
+    },
+    {
+      "name": "Sunday",
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0,
+      "profit": -100.44
+    },
+    {
+      "name": "Saturday",
+      "count": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100,
+      "profit": 218.17
+    }
+  ],
+  "byPair": [
+    {
+      "name": "BTC/USD",
+      "count": 8,
+      "wins": 5,
+      "losses": 3,
+      "winRate": 62.5,
+      "profit": 312.7
+    },
+    {
+      "name": "XAU/USD",
+      "count": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0,
+      "profit": -139.88
+    },
+    {
+      "name": "ETH/USD",
+      "count": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0,
+      "profit": -254.83
+    },
+    {
+      "name": "SPY/USD",
+      "count": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 25,
+      "profit": -36.75
+    },
+    {
+      "name": "ENA/USD",
+      "count": 3,
+      "wins": 3,
+      "losses": 0,
+      "winRate": 100,
+      "profit": 2218.39
+    },
+    {
+      "name": "ETHFI/USD",
+      "count": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 33.33,
+      "profit": -22.44
+    },
+    {
+      "name": "XPL/USD",
+      "count": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0,
+      "profit": -180.19
+    },
+    {
+      "name": "LINK/USD",
+      "count": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 100,
+      "profit": 378.75
+    },
+    {
+      "name": "SOL/USD",
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0,
+      "profit": -126.33
+    },
+    {
+      "name": "SOLDEGEN/USD",
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0,
+      "profit": -142
+    },
+    {
+      "name": "ONDO/USD",
+      "count": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0,
+      "profit": -145.44
+    },
+    {
+      "name": "DYDX/USD",
+      "count": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100,
+      "profit": 18.4
+    },
+    {
+      "name": "FLUID/USD",
+      "count": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100,
+      "profit": 13.41
+    },
+    {
+      "name": "XAG/USD",
+      "count": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100,
+      "profit": 5.48
+    },
+    {
+      "name": "WTI/USD",
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0,
+      "profit": -46.24
+    },
+    {
+      "name": "SYRUP/USD",
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0,
+      "profit": -63.78
+    },
+    {
+      "name": "BNB/USD",
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0,
+      "profit": -64.13
+    },
+    {
+      "name": "BTCDEGEN/USD",
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0,
+      "profit": -70
+    },
+    {
+      "name": "JTO/USD",
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0,
+      "profit": -71.61
+    },
+    {
+      "name": "AI16Z/USD",
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0,
+      "profit": -72.44
+    },
+    {
+      "name": "PENDLE/USD",
+      "count": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0,
+      "profit": -73.87
+    }
+  ]
+}

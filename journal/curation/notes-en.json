@@ -1,0 +1,63 @@
+{
+  "about": "Reviewed English replacements for the journal's user notes and image captions. Keys are stable review item IDs. Only these items are published; every other user note and caption is dropped.",
+  "rules": {
+    "language": "professional English, first person, no hype",
+    "leverage": "high leverage is part of the strategy; risk is low margin with a precise entry, so leverage alone is not a drop reason",
+    "drop": "weak reasoning, a widened stop, or a duplicate copy on an unfilled order"
+  },
+  "items": {
+    "t244-note-1": "Flash crash; expecting a revisit of the order block.",
+    "t247-note-1": "Missed the entry twice by a few pips; no longer interested.",
+    "t248-image-1": "Looking to enter on the second leg of the crash.",
+    "t250-note-1": "AI memecoin; short into the flash crash.",
+    "t251-note-1": "AI memecoin; short into the flash crash.",
+    "t252-note-1": "Flash crash; expecting a revisit of the order block.",
+    "t253-note-1": "Clean FVG and order block; small test position.",
+    "t254-note-1": "Clean retest of the order block; small test position on WTI.",
+    "t255-note-1": "Clean FVG and order block; small test position.",
+    "t256-note-1": "Clean retest of the order block; small test position on WTI.",
+    "t258-image-1": "ETH/BTC arbitrage.",
+    "t261-note-1": "Maintaining the long-term short bias; entering on an order block.",
+    "t264-note-2": "Short bias on BTC; LINK offers better liquidity for the short.",
+    "t266-note-1": "Same setup with a different order block; position size may have been too aggressive.",
+    "t274-image-1": "First silver trade; small size, clean liquidity grab into a small order block.",
+    "t275-note-1": "Small short on the 5-minute open retest.",
+    "t276-image-1": "Small-size arbitrage.",
+    "t277-image-1": "Small-size arbitrage.",
+    "t279-note-1": "dYdX governance approved using 75% of protocol revenue to buy back DYDX on the open market, effective immediately.",
+    "t279-note-2": "DYDX was already deeply oversold; the buyback and the broader BTC selloff set up a corrective bounce.",
+    "t280-note-1": "Hedged the DYDX long with a LINK short; LINK still had liquidation levels below.",
+    "t281-image-2": "Large amount of liquidity still to be reclaimed.",
+    "t282-image-2": "Large amount of liquidity still to be reclaimed.",
+    "t283-note-1": "Re-entered the same position with a better entry; upside and liquidity still supportive.",
+    "t284-note-1": "Re-entered the same position with a better entry; upside and liquidity still supportive.",
+    "t285-image-1": "XPL had sold off hard with BTC; entering with a tight stop at the US open.",
+    "t288-image-1": "XPL had sold off hard with BTC; entering with a tight stop at the US open.",
+    "t292-image-1": "Price returning to the last order block before the drop.",
+    "t293-image-1": "Price returning to the last order block before the drop.",
+    "t298-image-1": "Hedged the long with correlated high-beta coins around an order block.",
+    "t311-image-1": "Should have anticipated the rejection at resistance; waiting for the new order block.",
+    "t313-image-1": "Overextended; short into the order block.",
+    "t314-image-1": "Overextended; short into the order block.",
+    "t316-image-1": "Should have anticipated the rejection at resistance; waiting for the new order block."
+  },
+  "dropped": {
+    "chasing the move": [
+      "t245-note-1"
+    ],
+    "overconfident target": [
+      "t249-image-1"
+    ],
+    "no testable reason": [
+      "t272-image-1"
+    ],
+    "widened stop and project narrative": [
+      "t286-note-2",
+      "t287-note-2"
+    ],
+    "duplicate copy on an unfilled order": [
+      "t263-note-2",
+      "t265-note-1"
+    ]
+  }
+}
