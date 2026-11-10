@@ -60,31 +60,31 @@ There was no separate dashboard. Each position became a Discord message, and the
 
 The images are rebuilt from the bot's UI modules and populated with journal rows. They show the embed and its components only — no sidebar, channel header, member list, or message box.
 
-![betterGTrade active-trade embed](assets/screenshots/bettergtrade-active-trade.png)
+<img src="assets/screenshots/bettergtrade-active-trade.png" alt="betterGTrade active-trade embed" width="620">
 
 *Trade 237, ENA/USD short. The message edits itself while the position is open; the buttons are the only interface to TP, SL, leverage, close, analysis, and tracking.*
 
-![betterGTrade trade lists](assets/screenshots/bettergtrade-trade-lists.png)
+<img src="assets/screenshots/bettergtrade-trade-lists.png" alt="betterGTrade trade lists" width="620">
 
 *`/trades` and `/closed`. The closed list carries average PnL and win rate, and wraps its buttons five per row so the message stays readable.*
 
-![betterGTrade closed-trade embed](assets/screenshots/bettergtrade-closed-trade.png)
+<img src="assets/screenshots/bettergtrade-closed-trade.png" alt="betterGTrade closed-trade embed" width="620">
 
 *Trade 280, LINK/USD short. Final P/L, final R/R, and efficiency are added on close, next to the strategy configuration that was active. R/R and efficiency are normalised to implied USD margin because the export stores collateral in token units.*
 
-![betterGTrade journal and analysis embeds](assets/screenshots/bettergtrade-journal-analysis.png)
+<img src="assets/screenshots/bettergtrade-journal-analysis.png" alt="betterGTrade journal and analysis embeds" width="620">
 
 *The five-field analysis modal, its structured embed, notes captured from replies, and the image index. Analysis was reconstructed from the modal fields.*
 
-![betterGTrade tracking-mode embeds](assets/screenshots/bettergtrade-tracking.png)
+<img src="assets/screenshots/bettergtrade-tracking.png" alt="betterGTrade tracking-mode embeds" width="620">
 
 *Strategy mode moves the stop once a trigger prints; trailing mode ratchets it by a step. The button shows which mode is armed.*
 
-![betterGTrade close notifications](assets/screenshots/bettergtrade-notifications.png)
+<img src="assets/screenshots/bettergtrade-notifications.png" alt="betterGTrade close notifications" width="620">
 
 *Close notifications: green for profit, red for loss, blue for a limit order that was cancelled or filled.*
 
-![betterGTrade lifecycle storyboard](assets/screenshots/bettergtrade-lifecycle.png)
+<img src="assets/screenshots/bettergtrade-lifecycle.png" alt="betterGTrade lifecycle storyboard" width="520">
 
 *The same message across six states: entry point → detection → note → trailing setup → monitor alert → close. Prices and tracking values come from trade 246; the note text is illustrative. The trailing stop is bot-managed because Gains Network has no native trailing order.*
 
@@ -114,7 +114,7 @@ Operated from **2025-10-07 to 2026-02-05**. The export contains 1,059 rows acros
 
 *The 30.6% win rate is the expected output of a 10R–50R target, not a defect: the average win is 4.2× the average loss.*
 
-![Trade 237, ENA/USD short](assets/screenshots/bettergtrade-chart.png)
+<img src="assets/screenshots/bettergtrade-chart.png" alt="Trade 237, ENA/USD short" width="640">
 
 *Trade 237, ENA/USD short at 54x. Entry 0.64698 → exit 0.40944, recorded as **+1,979.34** over a 3-day hold. Journal chart, 1h.*
 
@@ -152,7 +152,7 @@ An execution bot produces far more order events than completed trades. Without a
 
 The export is a single JSON file of 1,059 rows across 98 trade IDs, and most of those rows repeat the same trade. Only 49 trade IDs carry a non-zero `profit`; `pnl` is zero everywhere and is not used. The analysis script reads the export directly, computes win rate, profit factor, holding time, and breakdowns by day and pair, and writes `results/metrics.json`.
 
-![Journal analysis output](assets/screenshots/journal-terminal.png)
+<img src="assets/screenshots/journal-terminal.png" alt="Journal analysis output" width="900">
 
 *Actual `analyze.js` output, with the output path shortened for display.*
 
@@ -189,7 +189,7 @@ A macro calendar is a data-normalisation problem, not a delivery integration. Re
 
 The tool fetches the Fair Economy weekly feed, validates every timestamp, and keeps three representations per event: the original string, the canonical UTC instant, and the source-local calendar date. Grouping uses the local date, so an 08:30 ET release stays on Tuesday even though it is 13:30 UTC. The CLI filters by date and impact and exports text, JSON, CSV, or RFC 5545 ICS.
 
-![Week calendar Discord mockup](assets/screenshots/week-calendar-discord.png)
+<img src="assets/screenshots/week-calendar-discord.png" alt="Week calendar Discord mockup" width="620">
 
 *Embed-only Discord mockup using the `--sample` week; no client chrome. AI actions are simulated and the published CLI is offline.*
 
@@ -198,7 +198,7 @@ bun week-calendar/src/index.js --sample
 bun week-calendar/test/run.js
 ```
 
-![Week calendar sample output](assets/screenshots/week-calendar-terminal.png)
+<img src="assets/screenshots/week-calendar-terminal.png" alt="Week calendar sample output" width="900">
 
 *Actual `--sample` output.*
 
@@ -224,7 +224,7 @@ Disclosure feeds are noisy, late, and formatted for humans. The risk is treating
 
 Two trackers share one CLI. The insider tracker keeps the latest filing day, sorts by reported USD value, returns the top ten, and totals buys and sells. The politician tracker groups trades by ticker, politician, and party; flags tickers where at least two politicians traded and one side dominates; and reports the disclosure lag. Dollar amounts use the **lower bound** of each disclosed range.
 
-![Disclosure flow Discord mockup](assets/screenshots/disclosure-discord.png)
+<img src="assets/screenshots/disclosure-discord.png" alt="Disclosure flow Discord mockup" width="620">
 
 *Embed-only Discord mockup using the `--demo` fixtures; no client chrome. AI actions are simulated and the published CLI is offline.*
 
@@ -232,7 +232,7 @@ Two trackers share one CLI. The insider tracker keeps the latest filing day, sor
 bun disclosure-flow/src/index.js --demo
 ```
 
-![Disclosure flow demo output](assets/screenshots/disclosure-terminal.png)
+<img src="assets/screenshots/disclosure-terminal.png" alt="Disclosure flow demo output" width="900">
 
 *Actual `--demo` output and the first record of the generated report.*
 
@@ -258,7 +258,7 @@ A chart overlay is easy to over-claim. The indicator I ran was a composite: a th
 
 The two helpers are a vertical divider at each day boundary and a fill between that day's first price and the current price. Green marks price above the reference, pink below. They make intraday context readable without adding a signal.
 
-![Chart overlays](assets/screenshots/chart-overlays.png)
+<img src="assets/screenshots/chart-overlays.png" alt="Chart overlays" width="640">
 
 *BTCUSDT intraday: day dividers and the session-open fill. Green = above the day's first price; pink = below. The rest of the chart belongs to the third-party base.*
 
